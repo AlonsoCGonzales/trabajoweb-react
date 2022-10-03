@@ -1,10 +1,13 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/anchor-has-content */
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import React from "react";
 import {  } from "react-router-dom";
+import "./styles/Surprise.css";
 
-const HistorialOrden = () => {
-  return <div>
-    <nav className="navbar navbar-expand-lg bg-light" style={{height: '45px'}}>
+const Carrito = () => {
+  return (
+    <div>
+      <nav className="navbar navbar-expand-lg bg-light" style={{height: '45px'}}>
       <div className="container-fluid">
         <a className="nav-link active" aria-current="page" href="www.google.com.pe"></a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,46 +64,53 @@ const HistorialOrden = () => {
         </div>
       </div>
     </nav>
+      <div
+        className="h1 row-4 fst-italic"
+        style={{ position: "relative", left: "2rem", color: "white" }}
+      >
+        Shopping Car
+      </div>
+      <div>
+        <button
+          style={{ position: "relative", left: "65%" }}
+          className="check"
+          type="button"
+        >
+          <img
+            style={{ height: "2rem" }}
+            src="./image/carrito-de-compras.png"
+            alt=""
+          />
+          Checkout
+        </button>
+      </div>
+      <br />
       <div className="row">
-        <div className="col-4">
-          <div className="container row" style={{ marginLeft: "2px" }}>
-            <div
-              className="col-sm btn bg-light"
-              style={{ marginTop: "10px", padding: "15px" }}
-            >
-              Order History
-            </div>
-            <div
-              className="col- sm btn bg-light"
-              style={{ marginTop: "15px", padding: "15px" }}
-            >
-              Profile info
-            </div>
-            <div
-              className="col-sm btn bg-light"
-              style={{ marginTop: "15px", padding: "15px" }}
-            >
-              Log Out
-            </div>
-          </div>
-        </div>
-        <div className="col-8">
-          <div className=" container row">
+        <div className="col-9">
+          <div
+            className=" container row"
+            style={{ position: "relative", left: "5%" }}
+          >
             <div
               className="col-sm navbar navbar-expand-lg navbar-light bg-light"
               style={{ marginTop: "10px", marginBottom: "10px" }}
             >
               <img
-                style={{ height: "40px", marginRight: "60px" }}
-                src="./iconos/keyboard-mouse.png"
-                alt=""
+                style={{
+                  height: "40px",
+                  marginRight: "60px",
+                  position: "relative",
+                  left: "2rem",
+                }}
+                src="./image/case.jpg"
+                alt="case"
               />
             </div>
             <div
               className="col-6 navbar navbar-expand-lg navbar-light bg-light"
               style={{ marginTop: "10px", marginBottom: "10px" }}
             >
-              Keyboard and mouse bundle
+              Case Antryx C/N rgb Azul
             </div>
             <div
               className="col-sm navbar navbar-expand-lg navbar-light bg-light"
@@ -113,18 +123,34 @@ const HistorialOrden = () => {
               className="col-sm navbar navbar-expand-lg navbar-light bg-light"
               style={{ marginTop: "10px", marginBottom: "10px" }}
             >
-              {" "}
-              10/12/2022
+              <button
+                style={{ position: "relative", left: "40%" }}
+                type="button"
+              >
+                <img
+                  style={{ height: "30px" }}
+                  src="./image/eliminar.png"
+                  alt=""
+                />
+              </button>
             </div>
           </div>
-          <div className=" container row">
+          <div
+            className=" container row"
+            style={{ position: "relative", left: "5%" }}
+          >
             <div
               className="col-sm navbar navbar-expand-lg navbar-light bg-light"
               style={{ marginTop: "10px", marginBottom: "10px" }}
             >
               <img
-                style={{ height: "40px", marginRight: "60px" }}
-                src="./iconos/intel.png"
+                style={{
+                  height: "40px",
+                  marginRight: "60px",
+                  position: "relative",
+                  left: "2rem",
+                }}
+                src="./image/procesador.png"
                 alt=""
               />
             </div>
@@ -132,7 +158,7 @@ const HistorialOrden = () => {
               className="col-6 navbar navbar-expand-lg navbar-light bg-light"
               style={{ marginTop: "10px", marginBottom: "10px" }}
             >
-              INTEL CORE I7-12700F 12-CORE
+              RYZEN CORE I7-12700F 12-CORE
             </div>
             <div
               className="col-sm navbar navbar-expand-lg navbar-light bg-light"
@@ -145,18 +171,130 @@ const HistorialOrden = () => {
               className="col-sm navbar navbar-expand-lg navbar-light bg-light"
               style={{ marginTop: "10px", marginBottom: "10px" }}
             >
-              {" "}
-              10/12/2022
+              <button
+                style={{ position: "relative", left: "40%" }}
+                type="button"
+              >
+                <img
+                  style={{ height: "30px" }}
+                  src="./image/eliminar.png"
+                  alt=""
+                />
+              </button>
             </div>
           </div>
-          <div className=" container row">
+          <div
+            className=" container row"
+            style={{ position: "relative", left: "5%" }}
+          >
             <div
               className="col-sm navbar navbar-expand-lg navbar-light bg-light"
               style={{ marginTop: "10px", marginBottom: "10px" }}
             >
               <img
-                style={{ height: "40px", marginRight: "60px" }}
-                src="./iconos/nvidia.png"
+                style={{
+                  height: "40px",
+                  marginRight: "60px",
+                  position: "relative",
+                  left: "2rem",
+                }}
+                src="./image/ram.jpg"
+                alt=""
+              />
+            </div>
+            <div
+              className="col-6 navbar navbar-expand-lg navbar-light bg-light"
+              style={{ marginTop: "10px", marginBottom: "10px" }}
+            >
+              RAM de 8GB HYPER X
+            </div>
+            <div
+              className="col-sm navbar navbar-expand-lg navbar-light bg-light"
+              style={{ marginTop: "10px", marginBottom: "10px" }}
+            >
+              {" "}
+              $679
+            </div>
+            <div
+              className="col-sm navbar navbar-expand-lg navbar-light bg-light"
+              style={{ marginTop: "10px", marginBottom: "10px" }}
+            >
+              <button
+                style={{ position: "relative", left: "40%" }}
+                type="button"
+              >
+                <img
+                  style={{ height: "30px" }}
+                  src="./image/eliminar.png"
+                  alt=""
+                />
+              </button>
+            </div>
+          </div>
+          <div
+            className=" container row"
+            style={{ position: "relative", left: "5%" }}
+          >
+            <div
+              className="col-sm navbar navbar-expand-lg navbar-light bg-light"
+              style={{ marginTop: "10px", marginBottom: "10px" }}
+            >
+              <img
+                style={{
+                  height: "30px",
+                  marginRight: "40px",
+                  position: "relative",
+                  left: "2rem",
+                }}
+                src="./image/teclado.jpg"
+                alt=""
+              />
+            </div>
+            <div
+              className="col-6 navbar navbar-expand-lg navbar-light bg-light"
+              style={{ marginTop: "10px", marginBottom: "10px" }}
+            >
+              Teclado white c/n rgb arcoiris
+            </div>
+            <div
+              className="col-sm navbar navbar-expand-lg navbar-light bg-light"
+              style={{ marginTop: "10px", marginBottom: "10px" }}
+            >
+              {" "}
+              $99
+            </div>
+            <div
+              className="col-sm navbar navbar-expand-lg navbar-light bg-light"
+              style={{ marginTop: "10px", marginBottom: "10px" }}
+            >
+              <button
+                style={{ position: "relative", left: "40%" }}
+                type="button"
+              >
+                <img
+                  style={{ height: "30px" }}
+                  src="./image/eliminar.png"
+                  alt=""
+                />
+              </button>
+            </div>
+          </div>
+          <div
+            className=" container row"
+            style={{ position: "relative", left: "5%" }}
+          >
+            <div
+              className="col-sm navbar navbar-expand-lg navbar-light bg-light"
+              style={{ marginTop: "10px", marginBottom: "10px" }}
+            >
+              <img
+                style={{
+                  height: "40px",
+                  marginRight: "60px",
+                  position: "relative",
+                  left: "2rem",
+                }}
+                src="./image/nvidia.png"
                 alt=""
               />
             </div>
@@ -171,24 +309,40 @@ const HistorialOrden = () => {
               style={{ marginTop: "10px", marginBottom: "10px" }}
             >
               {" "}
-              $679
+              $99
             </div>
             <div
               className="col-sm navbar navbar-expand-lg navbar-light bg-light"
               style={{ marginTop: "10px", marginBottom: "10px" }}
             >
-              {" "}
-              10/12/2022
+              <button
+                style={{ position: "relative", left: "40%" }}
+                type="button"
+              >
+                <img
+                  style={{ height: "30px" }}
+                  src="./image/eliminar.png"
+                  alt=""
+                />
+              </button>
             </div>
           </div>
-          <div className=" container row">
+          <div
+            className=" container row"
+            style={{ position: "relative", left: "5%" }}
+          >
             <div
               className="col-sm navbar navbar-expand-lg navbar-light bg-light"
               style={{ marginTop: "10px", marginBottom: "10px" }}
             >
               <img
-                style={{ height: "40px", marginRight: "60px" }}
-                src="./iconos/1tb.png"
+                style={{
+                  height: "40px",
+                  marginRight: "60px",
+                  position: "relative",
+                  left: "2rem",
+                }}
+                src="./image/ram.jpg"
                 alt=""
               />
             </div>
@@ -196,31 +350,47 @@ const HistorialOrden = () => {
               className="col-6 navbar navbar-expand-lg navbar-light bg-light"
               style={{ marginTop: "10px", marginBottom: "10px" }}
             >
-              1TB NVME M.2
+              RAM de 8GB HYPER X
             </div>
             <div
               className="col-sm navbar navbar-expand-lg navbar-light bg-light"
               style={{ marginTop: "10px", marginBottom: "10px" }}
             >
               {" "}
-              $99
+              $79
             </div>
             <div
               className="col-sm navbar navbar-expand-lg navbar-light bg-light"
               style={{ marginTop: "10px", marginBottom: "10px" }}
             >
-              {" "}
-              10/12/2022
+              <button
+                style={{ position: "relative", left: "40%" }}
+                type="button"
+              >
+                <img
+                  style={{ height: "30px" }}
+                  src="./image/eliminar.png"
+                  alt=""
+                />
+              </button>
             </div>
           </div>
-          <div className=" container row">
+          <div
+            className=" container row"
+            style={{ position: "relative", left: "5%" }}
+          >
             <div
               className="col-sm navbar navbar-expand-lg navbar-light bg-light"
               style={{ marginTop: "10px", marginBottom: "10px" }}
             >
               <img
-                style={{ height: "40px", marginRight: "60px" }}
-                src="./iconos/coolermaster.png"
+                style={{
+                  height: "40px",
+                  marginRight: "60px",
+                  position: "relative",
+                  left: "2rem",
+                }}
+                src="./image/hdd.png"
                 alt=""
               />
             </div>
@@ -228,57 +398,35 @@ const HistorialOrden = () => {
               className="col-6 navbar navbar-expand-lg navbar-light bg-light"
               style={{ marginTop: "10px", marginBottom: "10px" }}
             >
-              COOLER MASTER TD500 RGB
+              HDD 1TB SEAGATE
             </div>
             <div
               className="col-sm navbar navbar-expand-lg navbar-light bg-light"
               style={{ marginTop: "10px", marginBottom: "10px" }}
             >
               {" "}
-              $99
+              $29
             </div>
             <div
               className="col-sm navbar navbar-expand-lg navbar-light bg-light"
               style={{ marginTop: "10px", marginBottom: "10px" }}
             >
-              {" "}
-              10/12/2022
-            </div>
-          </div>
-          <div className=" container row ">
-            <div
-              className="col-sm navbar navbar-expand-lg navbar-light bg-light"
-              style={{ marginTop: "10px", marginBottom: "10px" }}
-            >
-              <img
-                style={{ height: "40px", marginRight: "60px" }}
-                src="./iconos/img1.png"
-                alt="no hay"
-              />
-            </div>
-            <div
-              className="col-6 navbar navbar-expand-lg navbar-light bg-light"
-              style={{ marginTop: "10px", marginBottom: "10px" }}
-            >
-              BUILD + SETUP + TESTING + WARRANTY
-            </div>
-            <div
-              className="col-sm navbar navbar-expand-lg navbar-light bg-light"
-              style={{ marginTop: "10px", marginBottom: "10px" }}
-            >
-              {" "}
-              $99
-            </div>
-            <div
-              className="col-sm navbar navbar-expand-lg navbar-light bg-light"
-              style={{ marginTop: "10px", marginBottom: "10px" }}
-            >
-              {" "}
-              10/12/2022
+              <button
+                style={{ position: "relative", left: "40%" }}
+                type="button"
+              >
+                <img
+                  style={{ height: "30px" }}
+                  src="./image/eliminar.png"
+                  alt=""
+                />
+              </button>
             </div>
           </div>
         </div>
       </div>
     </div>
-}
-export default HistorialOrden;
+  );
+};
+
+export default Carrito;

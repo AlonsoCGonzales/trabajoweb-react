@@ -17,6 +17,10 @@ import RegistroPage from './pages/RegistroPage'
 import Principal from './pages/Principal'
 import ListaResena from './pages/ListaResena'
 import HistorialOrden from './pages/HistorialOrden'
+import Surprise from './pages/Surprise';
+import Main from './pages/Main'
+import Carrito from './pages/Carrito'
+import Building from './pages/Building'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -28,13 +32,18 @@ root.render(
       <Route path='/Programing' element={<Programing />}/>
       <Route path='/Requets' element={<Requets />}/>
       <Route path='/Ranking' element={<Ranking />}/>
-      <Route path='/login' element={<Mk_2 />}/>
+      <Route path='/Login' element={<Mk_2 />}/>
       <Route path='/formularioOne' element={<Mk_4_5 />}/>
       <Route path='/Componentes' element={<Mk_12 />}/>
-      <Route path='/registro' element={<RegistroPage /> }/>
-      <Route path='/principal' element={<Principal/> }/>
+      <Route path='/Registro' element={<RegistroPage />}/>
+      <Route path='/Principal' element={<Principal />}/>
       <Route path='/ListaResena' element={<ListaResena />}/>
-      <Route path='/HistorialdeOrden' element={<HistorialOrden/>}/> 
+      <Route path='/HistorialdeOrden' element={<HistorialOrden />}/>
+      <Route path='/Surprise' element={<Surprise />}/>
+      <Route path='/Main' element={<Main />}/>
+      <Route path='/Carrito' element={<Carrito />}/>
+      <Route path='/Building' element={<Building />}/>
+
     </Routes>
     </BrowserRouter>
   </React.StrictMode>
