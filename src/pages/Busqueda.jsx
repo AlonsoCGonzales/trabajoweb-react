@@ -47,6 +47,18 @@ const Busqueda = () => {
             <input className="form-control me-1" type="search" placeholder="Search" aria-label="Search" />
             <button className="btn btn-outline-success" type="submit">Search</button>
           </form>
+          <li className="nav-item">
+            <a className="nav-link" aria-current="page">
+              <img id="Shopcar" src="./iconos/img3.png" alt="Shopcar" style={{width: '28px',height: '30px',
+              marginLeft:'5px', marginRight:'5px'}}/>
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link active" aria-current="page">
+              <img id="user" src="./iconos/img4.png" alt="user" style={{width: '28px',height: '30px',
+              marginLeft:'5px'}}/>
+            </a>
+          </li>
         </div>
       </div>
     </nav>
