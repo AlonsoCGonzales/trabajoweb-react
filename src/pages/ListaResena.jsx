@@ -68,8 +68,8 @@ const ListaResena = () => {
           <h1 style={{ margin: "20px" }}>User Reviews</h1>
         </div>
         <div className="row">
-          <div style={{ margin: "20px" }} className="col col-lg-2">
-            <h2>Global rate</h2>
+          <div style={{ margin: "20px"}} className="col col-lg-2">
+            <h2 class="Global">Global rate</h2>
           </div>
           <div
             style={{ marginTop: "30px" }}
@@ -96,17 +96,17 @@ const ListaResena = () => {
           className="solid"
           style={{ borderTop: "1px solid grey", marginTop: "30px" }}
         >
-          <h5 style={{ margin: "20px", marginLeft: "40px" }}>Juan Lopez</h5>
+          <h5 class="Global" style={{ margin: "20px", marginLeft: "40px" }}>Juan Lopez</h5>
           <p style={{ marginLeft: "70px" }}>I completely recommend this site</p>
         </div>
 
         <div className="solid" style={{ borderTop: "1px solid grey" }}>
-          <h5 style={{ margin: "20px", marginLeft: "40px" }}>Jhon Doe</h5>
+          <h5 class="Global" style={{ margin: "20px", marginLeft: "40px" }}>Jhon Doe</h5>
           <p style={{ marginLeft: "70px" }}>Great service</p>
         </div>
 
         <div className="solid " style={{ borderTop: "1px solid grey" }}>
-          <h5 style={{ margin: "20px", marginLeft: "40px" }}>Carl Johnson</h5>
+          <h5 class="Global" style={{ margin: "20px", marginLeft: "40px" }}>Carl Johnson</h5>
           <p style={{ marginLeft: "70px" }}>
             Pc well built and nice case quality
           </p>
