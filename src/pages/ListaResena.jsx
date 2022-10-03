@@ -102,7 +102,7 @@ const ListaResena = () => {
 
         <div className="solid" style={{ borderTop: "1px solid grey" }}>
           <h5 class="Global" style={{ margin: "20px", marginLeft: "40px" }}>Jhon Doe</h5>
-          <p style={{ marginLeft: "70px" }}>Great service</p>
+          <p style={{ marginLeft: "70px" }}>Great service!</p>
         </div>
 
         <div className="solid " style={{ borderTop: "1px solid grey" }}>
