@@ -21,6 +21,7 @@ import Surprise from './pages/Surprise';
 import Main from './pages/Main'
 import Carrito from './pages/Carrito'
 import Building from './pages/Building'
+import Mockup21 from './pages/Mockup21';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -43,6 +44,7 @@ root.render(
       <Route path='/Main' element={<Main />}/>
       <Route path='/Carrito' element={<Carrito />}/>
       <Route path='/Building' element={<Building />}/>
+      <Route path='/Resena' element={<Mockup21 />}/>
 
     </Routes>
     </BrowserRouter>
