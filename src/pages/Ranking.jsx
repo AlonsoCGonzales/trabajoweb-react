@@ -114,20 +114,20 @@ const Ranking = () => {
             <img src="/img/ram8.png" class="card-img-top" alt="Core"></img>
           </div>
           <div class="col">
-            <h5>Intel (59%) vs AMD (41%)</h5>
+          <h5>Intel (59%) vs AMD (41%)</h5>
             <div class="progress">
             <div class="progress-bar" role="progressbar" style={{ width: "59%" }} aria-valuenow="15"
             aria-valuemin="0" aria-valuemax="100">
-          </div>
           <div class="progress-bar bg-danger" role="progressbar" style={{ width: "41%" }} aria-valuenow="30"
           aria-valuemin="0" aria-valuemax="100">
+          </div>
+          </div>
         </div>
 
       </div>
       </div>
     </div>
-  </div>
-  </div>
+    </div>
     </div>
 }
 
