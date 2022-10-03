@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-pascal-case */
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
@@ -9,6 +10,13 @@ import Busqueda from './pages/Busqueda';
 import Ofimatica from './pages/Ofimatica';
 import Programing from './pages/Programing';
 import Ranking from './pages/Ranking';
+import Mk_2 from './pages/Mk_2';
+import Mk_4_5 from './pages/Mk_4_5';
+import Mk_12 from './pages/Mk_12';
+import RegistroPage from './pages/RegistroPage'
+import Principal from './pages/Principal'
+import ListaResena from './pages/ListaResena'
+import HistorialOrden from './pages/HistorialOrden'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,6 +28,13 @@ root.render(
       <Route path='/Programing' element={<Programing />}/>
       <Route path='/Requets' element={<Requets />}/>
       <Route path='/Ranking' element={<Ranking />}/>
+      <Route path='/login' element={<Mk_2 />}/>
+      <Route path='/formularioOne' element={<Mk_4_5 />}/>
+      <Route path='/Componentes' element={<Mk_12 />}/>
+      <Route path='/registro' element={<RegistroPage /> }/>
+      <Route path='/principal' element={<Principal/> }/>
+      <Route path='/ListaResena' element={<ListaResena />}/>
+      <Route path='/HistorialdeOrden' element={<HistorialOrden/>}/> 
     </Routes>
     </BrowserRouter>
   </React.StrictMode>
